@@ -4,10 +4,68 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>My First Website</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Portfolio</title>
 
-  <!-- We need to bring in the bootstrap CSS -->
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
+
+<style>
+
+.card {
+margin: 20px;
+
+}
+
+</style>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a href="index.html" class="navbar-brand">John Cameron</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>  
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+        </ul>
+    </div>
+ </nav>
+
+ <section>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" target="blank" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="card" style="width: 18rem;">
+        <img src="scratch logo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Scratch Project</h5>
+          <p class="card-text">My first scratch project was a basic shooter similar to a primitive Raiden Space Ship game. </p>
+          <a href="https://scratch.mit.edu/projects/354430959/editor/" target="_blank" class="btn btn-primary">Play me!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section> 
+
+</body>
