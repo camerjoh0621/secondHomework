@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Contact Me</title>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+<style>
+
+.contact-form {
+  background-color: cadetblue;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+hr {
+ background: black; 
+}
+</style>
+
+</head>
+
+<body>
+  <div class="container contact-form">
+    <h1>Contact</h1>
+    <hr>
+
+    <div class="row">
+
+      <div class="col-md-6">
+      <p>Name</p>
+      <p>Email:jcam6753@gmail.com</p>
+      <p>Phone:(408)889-3241</p>
+      </div>
+
+      <div class="col-md-6">
+
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control"> 
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="text" class="form-control"> 
+        </div>
+
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control" rows="5"></textarea> 
+        </div>
+
+        <div class="text-center text-md-left">
+          <a class="btn btn-primary" onclick="document.getElementById('form-group').submit();">Send</a>
+        </div>
+
+
+      </div>
+      
+    </div>
+  </div>
+
+</body>
